@@ -1,9 +1,9 @@
 # Write code for algorithm 1 below
-def print_positive(n):
+def count_down(n):
     if n == 0:
-        print(n)
+        return
     else:
         print(n)
-        print_positive(n - 1)
+        count_down(n - 1)
 
-print_positive(3)
+count_down(7)
